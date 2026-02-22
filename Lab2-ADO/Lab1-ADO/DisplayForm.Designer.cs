@@ -42,7 +42,6 @@
             updateBtn = new Button();
             clearBtn = new Button();
             addBtn = new Button();
-            dbBtn = new Button();
             ((System.ComponentModel.ISupportInitialize)empGridView).BeginInit();
             SuspendLayout();
             // 
@@ -146,7 +145,7 @@
             deleteBtn.BackColor = Color.LightCoral;
             deleteBtn.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             deleteBtn.ForeColor = Color.Maroon;
-            deleteBtn.Location = new Point(23, 419);
+            deleteBtn.Location = new Point(183, 417);
             deleteBtn.Name = "deleteBtn";
             deleteBtn.Size = new Size(129, 44);
             deleteBtn.TabIndex = 4;
@@ -159,7 +158,7 @@
             updateBtn.BackColor = Color.SkyBlue;
             updateBtn.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             updateBtn.ForeColor = Color.MidnightBlue;
-            updateBtn.Location = new Point(178, 419);
+            updateBtn.Location = new Point(341, 417);
             updateBtn.Name = "updateBtn";
             updateBtn.Size = new Size(129, 44);
             updateBtn.TabIndex = 5;
@@ -183,7 +182,7 @@
             addBtn.BackColor = Color.LightGreen;
             addBtn.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             addBtn.ForeColor = Color.DarkGreen;
-            addBtn.Location = new Point(335, 419);
+            addBtn.Location = new Point(504, 417);
             addBtn.Name = "addBtn";
             addBtn.Size = new Size(129, 44);
             addBtn.TabIndex = 7;
@@ -191,25 +190,11 @@
             addBtn.UseVisualStyleBackColor = false;
             addBtn.Click += addBtn_Click;
             // 
-            // dbBtn
-            // 
-            dbBtn.BackColor = Color.Wheat;
-            dbBtn.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            dbBtn.ForeColor = Color.Sienna;
-            dbBtn.Location = new Point(644, 419);
-            dbBtn.Name = "dbBtn";
-            dbBtn.Size = new Size(177, 44);
-            dbBtn.TabIndex = 8;
-            dbBtn.Text = "Update Database";
-            dbBtn.UseVisualStyleBackColor = false;
-            dbBtn.Click += dbBtn_Click;
-            // 
             // DisplayForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(840, 491);
-            Controls.Add(dbBtn);
             Controls.Add(addBtn);
             Controls.Add(clearBtn);
             Controls.Add(updateBtn);
@@ -241,6 +226,5 @@
         private DataGridViewTextBoxColumn location;
         private Button clearBtn;
         private Button addBtn;
-        private Button dbBtn;
     }
 }

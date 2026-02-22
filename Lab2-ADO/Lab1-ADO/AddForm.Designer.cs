@@ -182,16 +182,16 @@
         #endregion
 
         private Label formLabel;
-        public TextBox fnameBox;
+        private TextBox fnameBox;
         private Label fname;
         private Label label1;
-        public TextBox lnameBox;
+        private TextBox lnameBox;
         private Label label2;
         private Label label3;
-        public TextBox salBox;
+        private TextBox salBox;
         private Button addBtn;
-        public ComboBox deptBox;
-        public TextBox idBox;
+        private ComboBox deptBox;
+        private TextBox idBox;
         private Label label4;
     }
 }

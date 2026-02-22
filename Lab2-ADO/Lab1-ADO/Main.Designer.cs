@@ -48,11 +48,11 @@
             add.BackColor = Color.PaleGreen;
             add.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             add.ForeColor = Color.DarkGreen;
-            add.Location = new Point(257, 238);
+            add.Location = new Point(247, 239);
             add.Name = "add";
-            add.Size = new Size(248, 76);
+            add.Size = new Size(267, 76);
             add.TabIndex = 1;
-            add.Text = "+ Add New Employee to DB";
+            add.Text = "+ Add New Employee";
             add.UseVisualStyleBackColor = false;
             add.Click += add_Click;
             // 

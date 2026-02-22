@@ -159,15 +159,15 @@
 
         #endregion
 
-        public ComboBox deptBox;
+        private ComboBox deptBox;
         private Button saveBtn;
         private Label label2;
         private Label label3;
-        public TextBox salBox;
+        private TextBox salBox;
         private Label label1;
-        public TextBox lnameBox;
+        private TextBox lnameBox;
         private Label fname;
-        public TextBox fnameBox;
+        private TextBox fnameBox;
         private Label formLabel;
     }
 }
